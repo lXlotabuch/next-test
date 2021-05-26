@@ -53,7 +53,7 @@ const NewPage = () => {
         <TextField
           id="body"
           name="body"
-          label="Comment"
+          label="Content"
           value={formik.values.body}
           onChange={formik.handleChange}
           error={formik.touched.body && Boolean(formik.errors.body)}
