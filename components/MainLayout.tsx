@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import { Header } from './Header/Header';
 
 interface LayoutTypes {
-  title: string;
+  title?: string;
   children: React.ReactNode;
 }
 
