@@ -13,7 +13,7 @@ const ContentWrapper = styled.div`
   margin: 0 auto
 `;
 
-export const MainLayout: React.FC<LayoutTypes> = ({ children, title = 'Home Page' }: LayoutTypes) => {
+export const MainLayout: React.FC<LayoutTypes> = ({ children, title }: LayoutTypes) => {
   return (
     <>
       <Head>

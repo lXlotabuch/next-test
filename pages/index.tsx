@@ -20,7 +20,7 @@ const Home = () => {
 
   if (isLoading) {
     return (
-      <MainLayout>
+      <MainLayout title="Home Page">
         <Backdrop open={isLoading}>
           <CircularProgress color="inherit" />
         </Backdrop>
@@ -29,7 +29,7 @@ const Home = () => {
   }
 
   return (
-    <MainLayout>
+    <MainLayout title="Home Page">
       <Posts>
         {posts.map((post) => (
           <Post key={post.id} {...post} withLink />
