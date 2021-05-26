@@ -1,4 +1,4 @@
-deploy: https://next-test-deploy-five.vercel.app/
+deploy: https://next-wine.vercel.app/
 
 step to start:
 
