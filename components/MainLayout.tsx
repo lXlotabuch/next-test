@@ -9,8 +9,8 @@ interface LayoutTypes {
 }
 
 const ContentWrapper = styled.div`
-  max-width: 500px,
-  margin: 0 auto
+  max-width: 500px;
+  margin: 0 auto;
 `;
 
 export const MainLayout: React.FC<LayoutTypes> = ({ children, title }: LayoutTypes) => {
